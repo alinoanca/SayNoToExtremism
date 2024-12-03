@@ -1,0 +1,90 @@
+/* Reset basic margins and paddings */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+header .subtitle {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #4caf50;
+}
+
+/* Main content styles */
+main {
+    padding: 2em;
+}
+
+main h2 {
+    color: #4caf50;
+}
+
+main ul {
+    list-style: disc;
+    padding-left: 1.5em;
+}
+
+/* Button styles */
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.7em 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
